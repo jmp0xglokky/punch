@@ -54,7 +54,7 @@ body, html {
     color: white;
     width: 290px;
     height: 410px;
-    filter: blur 10px;
+    filter: blur (10px);
 }
 
 .profile-picture {
