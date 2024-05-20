@@ -36,12 +36,14 @@ body, html {
     right: 0;
     left: 0;
     object-fit: cover;
+    pointer-events: none; /* Prevent video from being interacted with */
 }
 
 .video-background video {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    pointer-events: none; /* Prevent video from being interacted with */
 }
 
 .main-card {
